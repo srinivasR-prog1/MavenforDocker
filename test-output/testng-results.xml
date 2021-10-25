@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="29301" started-at="2021-10-25T04:13:51Z" finished-at="2021-10-25T04:14:20Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="29301" started-at="2021-10-25T04:13:51Z" finished-at="2021-10-25T04:14:20Z">
+      <class name="docker.ChromeTest">
+        <test-method status="PASS" signature="test1()[pri:0, instance:docker.ChromeTest@7c16905e]" name="test1" duration-ms="6795" started-at="2021-10-25T09:44:06Z" finished-at="2021-10-25T09:44:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- docker.ChromeTest -->
+      <class name="docker.Setup_DockerGrid">
+        <test-method status="PASS" signature="startDockerGrid()[pri:0, instance:docker.Setup_DockerGrid@1753acfe]" name="startDockerGrid" is-config="true" duration-ms="15033" started-at="2021-10-25T09:43:51Z" finished-at="2021-10-25T09:44:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDockerGrid -->
+        <test-method status="PASS" signature="stoptDockerGrid()[pri:0, instance:docker.Setup_DockerGrid@1753acfe]" name="stoptDockerGrid" is-config="true" duration-ms="5015" started-at="2021-10-25T09:44:15Z" finished-at="2021-10-25T09:44:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stoptDockerGrid -->
+      </class> <!-- docker.Setup_DockerGrid -->
+      <class name="docker.FirefoxTest">
+        <test-method status="PASS" signature="test2()[pri:0, instance:docker.FirefoxTest@2a2d45ba]" name="test2" duration-ms="9232" started-at="2021-10-25T09:44:06Z" finished-at="2021-10-25T09:44:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- docker.FirefoxTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
